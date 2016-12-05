@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100px"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+    <CheckBox
+        android:id="@+id/checkItem"
+        android:layout_width="100px"
+        android:layout_height="match_parent" />
+
+    <!--
+         ImageView
+        android:id="@+id/icon"
+        android:layout_width="100px"
+        android:layout_height="match_parent"
+        android:layout_weight="0" /
+    -->
+
+    <TextView
+        android:id="@+id/packageName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/limitedTime"
+        android:layout_width="150px"
+        android:layout_height="match_parent"
+        android:inputType="numberDecimal"
+        android:maxLength="5" />
+
+</LinearLayout>

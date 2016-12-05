@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ALT</string>
+    <string name="app_full_name">(Application Launching Tracker)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Start Tracking</string>
+    <string name="stop">Stop Tracking</string>
+    <string name="Report">View Report</string>
+    <string name="Empty">Empty</string>
+    <string name="Default">Set to default</string>
+    <string name="selectApp">selectApp</string>
+    <string name="ATS">ATS Apps</string>
+    <string name="Manual">All Apps</string>
+    <string name="Settings">Settings</string>
+    <string name="Clear">Clear Report</string>
+    <string name="noti_content">ALT is running.</string>
+    <string name="selectedPackage">selectedPackage : </string>
+    <string name="Classname">class name</string>
+    <string name="Spec">spec time(ms)</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="svc_noti_select">please select packages </string>
+    <string name="svc_stat_start">Service is running! </string>
+    <string name="svc_stat_stop">Service is stopped! </string>
+    <string name="svc_stat_triggered">Generate a report in %1$s </string>
+    <string name="guide_selinux_mode">&lt;b&gt;No information. &lt;br&gt; (To display this information, needs changing SELinux mode to \"Permissive\") </string>
+    <string name="guide_emmc">&lt;b&gt;"No information. &lt;br&gt; please check if apply the following steps &lt;br&gt;
+         1) Set DEBUG level &lt;br&gt; \"echo 7 > /sys/module/mmc_core/parameters/debug_level\" &lt;br&gt;
+         2) Check permalink below&lt;br&gt;
+         &lt;a href="http://lr.lge.com:8147/lap-review/#/c/157509/ &gt;"http://lr.lge.com:8147/lap-review/#/c/157509/&lt;br&gt;
+         &lt;http://lr.lge.com:8147/lap-review/#/c/157512/&gt;http://lr.lge.com:8147/lap-review/#/c/157512/ </string>
+
+</resources>
